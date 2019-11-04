@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Increase the score for Team A by 1 point.
+     * Increase the score for Team A by 1 point
      */
     public void addPointForTeamA(View v) {
         scoreTeamA += 1;
@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Increase the fouls number for Team A by 1.
+     * Increase the fouls number for Team A by 1
      */
     public void addFoulsForTeamA(View v) {
         foulsTeamA += 1;
@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Displays the given score for Team A.
+     * Displays the given score for Team A
      */
     public void displayScoreForTeamA(int score) {
         TextView scoreView = (TextView) findViewById(R.id.team_a_score);
@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Displays the fouls number for Team A.
+     * Displays the fouls number for Team A
      */
     public void displayFoulsForTeamA(int fouls) {
         TextView foulsView = (TextView) findViewById(R.id.team_a_fouls);
@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Increase the score for Team B by 1 point.
+     * Increase the score for Team B by 1 point
      */
     public void addPointForTeamB(View v) {
         scoreTeamB += 1;
@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Increase the fouls number for Team B by 1.
+     * Increase the fouls number for Team B by 1
      */
     public void addFoulsForTeamB(View v) {
         foulsTeamB += 1;
@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Displays the given score for Team B.
+     * Displays the given score for Team B
      */
     public void displayScoreForTeamB(int score) {
         TextView scoreView = (TextView) findViewById(R.id.team_b_score);
@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Displays the fouls number for Team B.
+     * Displays the fouls number for Team B
      */
     public void displayFoulsForTeamB(int fouls) {
         TextView foulsView = (TextView) findViewById(R.id.team_b_fouls);
@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Resets the given score for Team B and Team A.
+     * Resets the given score for Team B and Team A
      */
     public void reset(View v) {
         scoreTeamB = 0;
